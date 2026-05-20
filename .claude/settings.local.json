@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Move-Item \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\App.java\" \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\com\\\\sistemafinanceiro\\\\App.java\")",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\Transacao.java\" \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\com\\\\sistemafinanceiro\\\\Transacao.java\")",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\TransacaoService.java\" \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\com\\\\sistemafinanceiro\\\\TransacaoService.java\")",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\com\\\\sistemafinanceiro\\\\Transacao.java\" \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\com\\\\sistemafinanceiro\\\\model\\\\Transacao.java\")",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\com\\\\sistemafinanceiro\\\\TransacaoService.java\" \"C:\\\\Users\\\\rafa\\\\Desktop\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\\\\src\\\\main\\\\java\\\\com\\\\sistemafinanceiro\\\\service\\\\TransacaoService.java\")",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\rafa\\\\OneDrive\\\\Área de Trabalho\\\\trabalho rafa\\\\Projeto java\\\\Sistema-Financeiro\\\\Sistema-Financeiro\" -Recurse -File)",
+      "Bash(Select-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(grep -E \"^[^/]*$|src|main|java|resources\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)"
+    ]
+  }
+}
