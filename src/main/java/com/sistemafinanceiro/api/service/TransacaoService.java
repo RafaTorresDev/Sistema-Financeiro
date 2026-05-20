@@ -10,6 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import org.springframework.stereotype.Service;
+
+
+@Service
 public class TransacaoService{
 
     //--------------------atributos---------------------------
@@ -63,7 +67,7 @@ public class TransacaoService{
         ps.executeUpdate();
     }
 
-    public void lerDadosSQL() throws SQLException{
+    public List<Transacao> lerDadosSQL() throws SQLException{
         String ler = "SELECT * FROM transacao";
         Connection conec = conectar();
         PreparedStatement ps = conec.prepareStatement(ler);
@@ -78,6 +82,7 @@ public class TransacaoService{
             Transacao t = new Transacao(id, valor, categoria, data);
             lista.add(t);
         }
+        return lista;
     }
 
 
