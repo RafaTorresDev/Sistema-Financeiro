@@ -44,9 +44,9 @@ public class TransacaoService{
     }
 
     public Connection conectar(){
-        String url = "jdbc:mysql://localhost:3306/sistema_financeiro";
-        String usuario = "root";
-        String senha = "16160";
+        String url = System.getenv("DB_URL") != null ? System.getenv("DB_URL") : "jdbc:mysql://localhost:3306/sistema_financeiro";
+        String usuario = System.getenv("DB_USER") != null ? System.getenv("DB_USER") : "root";
+        String senha = System.getenv("DB_PASSWORD") != null ? System.getenv("DB_PASSWORD") : "16160";
         Connection con = null;
 
         try {

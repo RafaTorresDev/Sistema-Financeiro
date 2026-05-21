@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'http://localhost:8080/transacoes'
+const API = (import.meta.env.VITE_API_URL || 'http://localhost:8080') + '/transacoes'
 
 function formatCurrency(value) {
   return new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(value)
