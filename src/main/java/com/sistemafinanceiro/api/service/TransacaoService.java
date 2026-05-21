@@ -63,11 +63,12 @@ public class TransacaoService{
         PreparedStatement ps = conec.prepareStatement(salvar);
         ps.setDouble(1, t.getValor());
         ps.setString(2, t.getCategoria());
-        ps.setString(3, formatarData(t.getData()));
+        ps.setString(3, t.getData());
         ps.executeUpdate();
     }
 
     public List<Transacao> lerDadosSQL() throws SQLException{
+        lista.clear();
         String ler = "SELECT * FROM transacao";
         Connection conec = conectar();
         PreparedStatement ps = conec.prepareStatement(ler);
