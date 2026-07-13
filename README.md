@@ -6,25 +6,25 @@ Aplicação full-stack para controle de finanças pessoais. Permite registrar en
 
 ## Funcionalidades
 
-• Cadastro de transações (entrada ou saída)
-• Visualização do extrato completo
-• Cálculo automático do saldo total
-• Exclusão de transações
+Cadastro de transações (entrada ou saída)  
+Visualização do extrato completo  
+Cálculo automático do saldo total  
+Exclusão de transações
 
 ## Tecnologias
 
-**Backend:** Java 17, Spring Boot, Spring Data JPA, MySQL
-**Frontend:** React, Vite
+**Backend:** Java 17, Spring Boot, Spring Data JPA, MySQL  
+**Frontend:** React, Vite  
 **Deploy:** Railway (backend + banco de dados), Vercel (frontend)
 
 ## Arquitetura
 
 O backend segue uma arquitetura em camadas tradicional do Spring Boot:
 
-controller → recebe as requisições HTTP
-service → contém as regras de negócio
-model → entidades JPA mapeadas para o banco
-config → configurações da aplicação (CORS, etc.)
+`controller` → recebe as requisições HTTP  
+`service` → contém as regras de negócio  
+`model` → entidades JPA mapeadas para o banco  
+`config` → configurações da aplicação (CORS, etc.)
 
 ## Estrutura de pastas
 
@@ -64,11 +64,11 @@ npm run dev
 
 ## Roadmap / Melhorias futuras
 
-• Autenticação de usuários (Spring Security + JWT)
-• Categorização de transações por tipo
-• Gráficos de gastos por período
-• Testes automatizados (JUnit + Mockito)
-• Paginação no extrato de transações
+Autenticação de usuários (Spring Security + JWT)  
+Categorização de transações por tipo  
+Gráficos de gastos por período  
+Testes automatizados (JUnit + Mockito)  
+Paginação no extrato de transações
 
 ## Licença
 
