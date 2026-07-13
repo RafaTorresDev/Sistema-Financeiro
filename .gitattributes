@@ -1,2 +1,6 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+
+# Manter as estatísticas de linguagem do repositório focadas no backend Java
+frontend/* linguist-vendored
